@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafios - Bateria Voadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="flyingbattery.png" alt="Logotipo da Bateria Voadora" id="logo">
+        <nav>
+            <a href="#desafio1">Cartão</a>
+            <a href="#desafio2">Horários</a>
+            <a href="#desafio3">Galeria</a>
+            <a href="#desafio4">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="desafio1">
+            <h1>João Pedro Livino Bernardino</h1>
+            <p>Sou desenvolvedor focado no ecossistema de <strong>jogos e quadrinhos</strong>, atuando como <em>criador independente</em> em projetos autorais.</p>
+            <h3>Objetivos Profissionais:</h3>
+            <ul>
+                <li>Publicar o jogo Assault on the Helltower na Steam.</li>
+                <li>Expandir o universo de Elgaly Express para quadrinhos impressos.</li>
+                <li>Especializar-me no desenvolvimento de interfaces web interativas.</li>
+            </ul>
+        </section>
+<section id="desafio2">
+            <h2>Tabela de Horários</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Código</th>
+                        <th>Matéria</th>
+                        <th>Professor(a)</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Segunda-Feira -->
+                    <tr>
+                        <td rowspan="2">Segunda-Feira</td>
+                        <td>IBD053</td>
+                        <td>Banco de Dados I</td>
+                        <td>Andréia Rodrigues Casare</td>
+                        <td>09:30 - 11:10</td>
+                    </tr>
+                    <tr>
+                        <td>PDS002</td>
+                        <td>Projeto Integrador em ADS II</td>
+                        <td>Silvia Roberta de Jesus Garcia</td>
+                        <td>11:20 - 13:00</td>
+                    </tr>
+
+                    <!-- Terça-Feira -->
+                    <tr>
+                        <td rowspan="2">Terça-Feira</td>
+                        <td>ISW082</td>
+                        <td>Desenvolvimento Web</td>
+                        <td>Silvia Roberta de Jesus Garcia</td>
+                        <td>09:30 - 11:10</td>
+                    </tr>
+                    <tr>
+                        <td>ILP215</td>
+                        <td>Linguagem de Programação I</td>
+                        <td>Andréia Rodrigues Casare</td>
+                        <td>11:20 - 13:00</td>
+                    </tr>
+
+                    <!-- Quarta-Feira -->
+                    <tr>
+                        <td rowspan="2">Quarta-Feira</td>
+                        <td>ISW082</td>
+                        <td>Desenvolvimento Web</td>
+                        <td>Silvia Roberta de Jesus Garcia</td>
+                        <td>07:40 - 09:20</td>
+                    </tr>
+                    <tr>
+                        <td>IES037</td>
+                        <td>Engenharia de Software II</td>
+                        <td>José Antonio Castanho de Almeida</td>
+                        <td>09:30 - 13:00</td>
+                    </tr>
+
+                    <!-- Quinta-Feira -->
+                    <tr>
+                        <td rowspan="2">Quinta-Feira</td>
+                        <td>IBD053</td>
+                        <td>Banco de Dados I</td>
+                        <td>Andréia Rodrigues Casare</td>
+                        <td>07:40 - 09:20</td>
+                    </tr>
+                    <tr>
+                        <td>ILP215</td>
+                        <td>Linguagem de Programação I</td>
+                        <td>Andréia Rodrigues Casare</td>
+                        <td>11:20 - 13:00</td>
+                    </tr>
+
+                    <!-- Sexta-Feira -->
+                    <tr>
+                        <td>Sexta-Feira</td>
+                        <td>ISG041</td>
+                        <td>Compliance e Segurança da Informação</td>
+                        <td>Celso Corazza</td>
+                        <td>09:30 - 13:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="desafio3">
+            <h2>Galeria de Mídia</h2>
+            <p>Clique na imagem para acessar o repositório oficial no GitHub:</p>
+            <a href="https://github.com/" target="_blank">
+                <img src="flyingbattery.png" alt="Logotipo Bateria Voadora" class="img-link" style="filter: brightness(0);">
+            </a>
+        </section>
+
+        <section id="desafio4">
+            <h2>Entre em Contato</h2>
+            <form action="#" method="POST" class="form-contato">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                </div>
+
+                <button type="submit" class="itch">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p><strong>&copy; 2026 - Bateria Voadora Studios.</strong> Desenvolvido como projeto em aula.</p>
+    </footer>
+
+</body>
+</html>
